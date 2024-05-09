@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+</head>
+<body>
+    <form>
+        <div class="container">
+        <div class = "name">
+            <label for = "Name">
+                Name<span class = "i">*</span><br>
+                <input type="text"
+                placeholder="firstname"/>
+                <input type="text"
+                placeholder="lastname"/>
+            </label><br>
+        </div>
+        <div class = "email">
+            <label for = "email">Email<span class = "i">*</span><br>
+                <input type="email"/>
+
+            </label>
+        </div>
+        <div>
+            <h3>Your Experience<span class = "i">*</span></h3>
+            <span class="fa fa-star checked" name = "rating"></span>
+            <span class="fa fa-star checked" name = "rating"></span>
+            <span class="fa fa-star checked" name = "rating"></span>
+            <span class="fa fa-star checked" name = "rating"></span>
+            <span class="fa fa-star checked" name = "rating"></span>
+            <span class="fa fa-star checked" name = "rating"></span>
+            <p>overall how would rate you experience with us?</p>
+        </div>
+        <div>
+            <h3>How Satisifed are you with<span class = "i">*</span></h3>
+            <table class = "table1">
+                <th class = "th">
+                    <td class = "td">Very Unsatisifed</td>
+                    <td class = "td">Unsatisified</td>
+                    <td class = "td">Neutral</td>
+                    <td class = "td">Satisifed</td>
+                    <td class = "td">Very Satisified</td>
+                </th>
+                <tbody>
+                    <tr class="first">
+                        <td>Purchase</td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                    </tr>
+                    <tr>
+                        <td>Service</td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                    </tr>
+                    <tr class="first">
+                        <td>Company Overall</td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3>How likely are you to<span class = "i">*</span></h3>
+            <table class = "table2">
+                <th class ="th">
+                    <td class = "td">Very Unlikely</td>
+                    <td class = "td">Unlikely</td>
+                    <td class = "td">Neutral</td>
+                    <td class = "td">likely</td>
+                    <td class = "td">Very likely</td>
+                </th>
+                <tbody>
+                    <tr class="first">
+                        <td>Buy form us again</td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                    </tr>
+                    <tr>
+                        <td>Recommend our product to others</td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                    </tr>
+                    <tr class="first">
+                        <td>Recommeneded our Company to others</td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                        <td class = "td"><input type = "radio" name = "rating"/></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3>Additional Comments or Suggestions</h3>
+            <textarea cols= "176%" rows="10%"></textarea>
+        </div>
+    <button>submit</button>
+    </div>
+    </form>
+</body>
+</html>

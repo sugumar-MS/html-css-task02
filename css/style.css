@@ -1,0 +1,47 @@
+*{
+    margin: 1rem;
+    padding: 0;
+}
+form{
+   
+    width: auto;
+    height: auto;
+}
+.i{
+    color: red;
+}
+.name{
+    font-size: large;
+    font-weight: bold;
+}
+.email{
+    font-size: large;
+    font-weight: bold;
+}
+
+input{
+    padding: 0.5rem;
+    width: 12rem;
+}
+.table1{
+    width: 100%;
+}
+.table2{
+    width: 100%;
+}
+button{
+    width: 7rem;
+    height: 2rem;
+    margin-left: 5rem;
+}
+.td{
+    text-align: center;
+}
+.th{
+    text-align: left;
+}
+.first{
+    background-color: rgb(209, 204, 204);
+ 
+}
+
